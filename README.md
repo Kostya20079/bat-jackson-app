@@ -110,15 +110,3 @@ pyinstaller --onefile --name bat_opt_app --clean --collect-all matplotlib --coll
 Skompilowany plik zostanie wygenerowany w katalogu `dist/` (na platformie Windows powstanie `dist/bat_opt_app.exe`, na Linuxie `dist/bat_opt_app`).
 
 ---
-
-## 🌿 Przepływ Pracy Git (Git Workflow)
-Projekt był rozwijany zgodnie z przyjętą metodyką gałęzi:
-- `master` – stabilna gałąź produkcyjna ze zbudowanym programem,
-- `dev` – główna gałąź integracyjna,
-- `feature/*` – dedykowane gałęzie funkcjonalne:
-  - `feature/core-bat-algorithm`
-  - `feature/evaluation-adapter`
-  - `feature/unit-tests-benchmark`
-  - `feature/user-interface`
-  - `feature/build-and-docs`
-Wszystkie commity sformatowano w języku angielskim z opisem 2–5 słów.
